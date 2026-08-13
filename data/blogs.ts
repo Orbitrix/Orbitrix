@@ -2,6 +2,14 @@ import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
   {
+    _id: "ai-starts-thinking",
+    sku: "ai-starts-thinking",
+    img: "/ai-starts-thinking-main.png",
+    title: "What Happens When AI Starts Thinking Closer to Home? ",
+    desc: "What would AI look like if it truly understood where we come from?  ",
+    date: "August 13, 2026",
+  },
+  {
     _id: "somaku-ai",
     sku: "somaku",
     img: "/chatimage.png",

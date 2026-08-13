@@ -1,3 +1,4 @@
+import AiStartsThinking from "./BlogContents/AiStartsThinking"
 import DroneLogistics from "./BlogContents/DroneLogistics"
 import DroneSpeed from "./BlogContents/DroneSpeed"
 import EffectiveDrones from "./BlogContents/EffectiveDrones"
@@ -30,6 +31,8 @@ const BlogContent = ({ sku }: { sku: string }) => {
     return <WhatWeBuild />;
   } else if (sku === "somaku") {
     return <Somaku />;
+  } else if (sku === "ai-starts-thinking") {
+    return <AiStartsThinking />;
   }
 }
 

@@ -28,7 +28,7 @@ const Somaku = () => {
           suggestion, and observation is helping shape a better product.
         </p>
 
-        <img src="/somaku-logo.jpeg" className="mt-8 w-full" />
+        <img src="/somaku-logo-cropped.jpeg" className="mt-8 w-full" />
 
         <p className="font-jsl text-gray-600 mt-6 text-[15px] leading-6.5">
           What's Happening Now?
@@ -73,8 +73,8 @@ const Somaku = () => {
           because waiting for someone else to build it wasn’t an option.
         </p>
 
-        <p className="font-jsl text-gray-600 mt-6 text-[15px] leading-6.5">
-          Orbitrix: Building technology that understands people.
+        <p className="font-outfit text-gray-900 font-medium mt-6 text-[16px]">
+          Orbitrix: Building the future with people in mind.
         </p>
       </section>
 

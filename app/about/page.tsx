@@ -341,9 +341,20 @@ const AboutPage = () => {
               </p>
             </div>
 
-            {/* Empty space filler placeholder to preserve symmetry if you ever add a 9th member, 
-                or you can leave it balanced as a solid block of 3. Since you have 8 total people 
-                including the CEO, this layout perfectly completes your request! */}
+            <div className="flex flex-col items-center">
+              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
+                <img
+                  src="/anderson_precious.png"
+                  className="h-full w-full object-cover object-[0%_0%]"
+                />
+              </div>
+              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+                Anderson Precious
+              </h1>
+              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
+                Junior legal associate
+              </p>
+            </div>
           </div>
         </div>
       </section>
