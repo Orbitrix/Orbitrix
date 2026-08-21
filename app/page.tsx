@@ -435,7 +435,7 @@ const page = () => {
           variants={ghostVariants}
           className="flex-center relative"
         >
-          <img src="space-2.png" className="max-[330px]:h-12 h-18" />
+          <img src="/somaku.png" className="max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
@@ -446,7 +446,7 @@ const page = () => {
           variants={ghostVariants}
           className="flex-center relative"
         >
-          <img src="space-com.png" className="max-[330px]:h-12 h-18" />
+          <img src="/space-com.png" className="max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
@@ -457,7 +457,7 @@ const page = () => {
           variants={ghostVariants}
           className="flex-center relative"
         >
-          <img src="space.png" className=" max-[330px]:h-12 h-18" />
+          <img src="/space.png" className=" max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
@@ -468,7 +468,7 @@ const page = () => {
           variants={ghostVariants}
           className="flex-center relative"
         >
-          <img src="axiom.png" className="max-[330px]:h-12 h-18" />
+          <img src="/axiom.png" className="max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
@@ -479,7 +479,7 @@ const page = () => {
           variants={ghostVariants}
           className="flex-center relative"
         >
-          <img src="esa.png" className="max-[330px]:h-12 h-18" />
+          <img src="/esa.png" className="max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
@@ -490,7 +490,7 @@ const page = () => {
           variants={ghostVariants} 
           className="flex-center relative"
         >
-          <img src="nasa.png" className="max-[330px]:h-12 h-18" />
+          <img src="/nasa.png" className="max-[330px]:h-12 h-18" />
 
           <div className="comp-section-box"></div>
         </motion.div>
