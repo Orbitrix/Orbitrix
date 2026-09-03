@@ -13,31 +13,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://orbitrixng.com"),
   title: "Orbitrix",
-  description: "Pioneering innovation at the intersection of techology & exploration",
+  description: "Pioneering innovation at the intersection of technology & exploration",
   keywords: ["Orbitrix", "Orbitrixng"],
   openGraph: {
-    title: 'Orbitrix',
-    description: 'Pioneering innovation at the intersection of techology & exploration',
-    url: 'https://orbitrixng.com',
-    siteName: 'Orbitrixng',
+    title: "Orbitrix",
+    description: "Pioneering innovation at the intersection of technology & exploration",
+    url: "https://orbitrixng.com",
+    siteName: "Orbitrixng",
     images: [
       {
-        url: 'https://orbitrixng.com/logo.png',
-        width: 1000,
-        height: "1000",
-        alt: 'Orbitrix Logo',
+        url: "/banner.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Orbitrix Logo",
       },
     ],
-    type: "website"
+    locale: "en_US",
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Orbitrix',
-    description: 'Pioneering innovation at the intersection of techology & exploration',
-    images: ['https://orbitrixng.com/logo.png'],
+    card: "summary_large_image",
+    title: "Orbitrix",
+    description: "Pioneering innovation at the intersection of technology & exploration",
+    images: ["/banner.jpg"],
   },
-  icons: "./favicon.png"
+  icons: "/favicon.png",
 };
 
 export default function RootLayout({
