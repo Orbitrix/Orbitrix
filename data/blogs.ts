@@ -2,6 +2,14 @@ import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
   {
+    _id: "what-comes-after",
+    sku: "what-comes-after",
+    img: "/what-comes-after/main.jpg",
+    title: "What Comes After “What If?",
+    desc: "Innovation doesn’t always begin with a blueprint.",
+    date: "September 6, 2026",
+  },
+  {
     _id: "ai-starts-thinking",
     sku: "ai-starts-thinking",
     img: "/ai-starts-thinking-main.png",

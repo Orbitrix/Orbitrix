@@ -8,6 +8,7 @@ import RobotDogs from "./BlogContents/RobotDogs"
 import RobotTech from "./BlogContents/RobotsTech"
 import SolarDrones from "./BlogContents/SolarDrones"
 import Somaku from "./BlogContents/Somaku"
+import WhatComesAfter from "./BlogContents/WhatComesAfter"
 import WhatWeBuild from "./BlogContents/WhatWeBuild";
 
 const BlogContent = ({ sku }: { sku: string }) => {
@@ -33,6 +34,8 @@ const BlogContent = ({ sku }: { sku: string }) => {
     return <Somaku />;
   } else if (sku === "ai-starts-thinking") {
     return <AiStartsThinking />;
+  } else if (sku === "what-comes-after") {
+    return <WhatComesAfter />;
   }
 }
 

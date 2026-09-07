@@ -206,8 +206,7 @@ const AboutPage = () => {
       {/* our team section */}
       <section className="bg-gray-50 pt-20 sm:pt-30 pb-20">
         <h1 className="text-center font-jsans text-2xl md:text-3xl xl:text-4xl">
-          Meet the
-          <span className="text-stone-400"> team</span>
+          Meet the <span className="text-stone-400">team</span>
         </h1>
 
         {/* ROW 1: 1 Member (CEO) */}
@@ -215,31 +214,33 @@ const AboutPage = () => {
           <div className="h-45 w-45 rounded-full overflow-hidden mx-auto">
             <img
               src="/samuel_ogunmilua.jpg"
+              alt="Samuel Ogunmilua"
               className="h-full w-full object-cover object-[0%_5%]"
             />
           </div>
-          <h1 className="font-jsans text-xl text-center mt-4">
+          <h2 className="font-jsans text-xl text-center mt-4">
             Samuel Ogunmilua
-          </h1>
+          </h2>
           <p className="font-jsl text-center text-gray-600 mt-2">
             CEO & Founder
           </p>
         </div>
 
-        {/* Pyramid Container for Rows 2, 3, and 4 */}
-        <div className="flex flex-col gap-10 max-w-4xl mx-auto mt-15 px-6">
-          {/* ROW 2: 2 Members (Centered) */}
+        {/* Container for Rows 2 and 3 */}
+        <div className="flex flex-col gap-12 max-w-4xl mx-auto mt-16 px-6">
+          {/* ROW 2: 2 Members */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-md sm:max-w-xl mx-auto w-full">
             <div className="flex flex-col items-center">
               <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
                 <img
                   src="/ademola-oladeinde.jpeg"
+                  alt="Oladeinde Adedamola"
                   className="h-full w-full object-cover object-[0%_1%]"
                 />
               </div>
-              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+              <h3 className="font-jsans text-lg md:text-xl text-center mt-4">
                 Oladeinde Adedamola
-              </h1>
+              </h3>
               <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
                 PM & Cybersecurity Engineer
               </p>
@@ -248,15 +249,16 @@ const AboutPage = () => {
             <div className="flex flex-col items-center">
               <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
                 <img
-                  src="/ambibola_favour.jpg"
-                  className="h-full w-full object-cover object-[10%_40%]"
+                  src="/habeeb_amoo.jpg"
+                  alt="Habeeb Amoo"
+                  className="h-full w-full object-cover object-[0%_25%]"
                 />
               </div>
-              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
-                Abimbola Favour
-              </h1>
+              <h3 className="font-jsans text-lg md:text-xl text-center mt-4">
+                Habeeb Amoo
+              </h3>
               <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-                Mechanical Engineer
+                Software Engineer
               </p>
             </div>
           </div>
@@ -266,28 +268,14 @@ const AboutPage = () => {
             <div className="flex flex-col items-center">
               <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
                 <img
-                  src="/habeeb_amoo.jpg"
-                  className="h-full w-full object-cover object-[0%_25%]"
-                />
-              </div>
-              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
-                Habeeb Amoo
-              </h1>
-              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-                Software Engineer
-              </p>
-            </div>
-
-            <div className="flex flex-col items-center">
-              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
-                <img
                   src="/somefun_dolapo.jpg"
+                  alt="Somefun Dolapo"
                   className="h-full w-full object-cover object-[0%_1%]"
                 />
               </div>
-              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+              <h3 className="font-jsans text-lg md:text-xl text-center mt-4">
                 Somefun Dolapo
-              </h1>
+              </h3>
               <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
                 Creative Studio Manager
               </p>
@@ -296,46 +284,14 @@ const AboutPage = () => {
             <div className="flex flex-col items-center">
               <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
                 <img
-                  src="/israel_victor.jpg"
-                  className="h-full w-full object-cover object-[0%_0%]"
-                />
-              </div>
-              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
-                Israel Victor
-              </h1>
-              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-                Aerospace Engineer
-              </p>
-            </div>
-          </div>
-
-          {/* ROW 4: 3 Members */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 w-full">
-            <div className="flex flex-col items-center">
-              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
-                <img
-                  src="/enoch_ayomide.jpg"
-                  className="h-full w-full object-cover object-[0%_0%]"
-                />
-              </div>
-              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
-                Enoch Ayomide
-              </h1>
-              <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-                Electrical Engineer
-              </p>
-            </div>
-
-            <div className="flex flex-col items-center">
-              <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
-                <img
                   src="/udeh-emmanuel.jpeg"
+                  alt="Udeh Emmanuel"
                   className="h-full w-full object-cover object-[0%_0%]"
                 />
               </div>
-              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+              <h3 className="font-jsans text-lg md:text-xl text-center mt-4">
                 Udeh Emmanuel
-              </h1>
+              </h3>
               <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
                 Robotics & AI Engineer
               </p>
@@ -345,14 +301,15 @@ const AboutPage = () => {
               <div className="h-30 sm:h-40 w-30 sm:w-40 rounded-full overflow-hidden">
                 <img
                   src="/anderson_precious.png"
+                  alt="Anderson Precious"
                   className="h-full w-full object-cover object-[0%_0%]"
                 />
               </div>
-              <h1 className="font-jsans text-lg md:text-xl text-center mt-4">
+              <h3 className="font-jsans text-lg md:text-xl text-center mt-4">
                 Anderson Precious
-              </h1>
+              </h3>
               <p className="font-jsl max-sm:text-sm text-center text-gray-600 mt-2">
-                Junior legal associate
+                Junior Legal Associate
               </p>
             </div>
           </div>
