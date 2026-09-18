@@ -111,7 +111,7 @@ const ServicePage = () => {
 
       <section className="bg-gray-50 pt-10 sm:pt-20 pb-20">
         {/* grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 px-6 md:px-10 xl:px-25">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-6 px-6 md:px-10 xl:px-25">
           <div className="px-6 py-10 bg-white border border-stone-300">
             <img src="/drone-icon.png" className="h-20 lg:h-20 mx-auto" />
 
@@ -152,6 +152,26 @@ const ServicePage = () => {
             <p className="mt-2 text-[15px] font-jsl text-center text-gray-500">
               Advanced robotic systems developed to study automation,
               assistance, and future human - machine collaboration
+            </p>
+
+            <ArrowRight className="mt-4 mx-auto" />
+          </div>
+
+          <div className="px-6 py-10 bg-white border border-stone-300">
+            <img
+              src="/somaku-service-icon.png"
+              alt="Somaku Logo"
+              className="h-19 lg:h-20 mx-auto"
+            />
+
+            <h1 className="font-jsans text-xl lg:text-2xl text-center mt-6">
+              Somaku AI
+            </h1>
+
+            <p className="mt-2 text-[15px] font-jsl text-center text-gray-500">
+              An intelligent conversational model designed to communicate
+              fluently across indigenous languages, local dialects, and native
+              cultural contexts.
             </p>
 
             <ArrowRight className="mt-4 mx-auto" />
