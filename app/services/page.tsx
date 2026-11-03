@@ -5,7 +5,7 @@ import Header from "@/components/Header"
 import { ArrowRight, ChevronDown, MoveDownRight, ShipWheel } from "lucide-react"
 import { useEffect, useState } from "react";
 
-const words = ["cosmic journey", "astral flight", "galactic adenture"]
+const words = ["cosmic journey", "astral flight", "galactic adventure"]
 
 const ServicePage = () => {
   const [step, setStep] = useState<number>(0)
